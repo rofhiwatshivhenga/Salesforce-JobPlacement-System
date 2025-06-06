@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Highest_Education_Level__c</fullName>
+    <externalId>false</externalId>
+    <label>Highest Education Level</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>High School</fullName>
+                <default>false</default>
+                <label>High School</label>
+            </value>
+            <value>
+                <fullName>National Diploma</fullName>
+                <default>false</default>
+                <label>National Diploma</label>
+            </value>
+            <value>
+                <fullName>Higher National Diploma</fullName>
+                <default>false</default>
+                <label>Higher National Diploma</label>
+            </value>
+            <value>
+                <fullName>Bsc</fullName>
+                <default>false</default>
+                <label>Bsc</label>
+            </value>
+            <value>
+                <fullName>Msc</fullName>
+                <default>false</default>
+                <label>Msc</label>
+            </value>
+            <value>
+                <fullName>PHD</fullName>
+                <default>false</default>
+                <label>PHD</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

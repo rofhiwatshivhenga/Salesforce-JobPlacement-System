@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JobConnect_Candidates</fullName>
+    <active>true</active>
+    <description>To represent individual job seekers who register on the platform to search for job opportunities. This record type store candidates information for job matching and application tracking.</description>
+    <label>JobConnect Candidates</label>
+    <picklistValues>
+        <picklist>Candidate_Status__c</picklist>
+        <values>
+            <fullName>Hired</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Interviewing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Hold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Highest_Education_Level__c</picklist>
+        <values>
+            <fullName>Bsc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High School</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Higher National Diploma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Msc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National Diploma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PHD</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
