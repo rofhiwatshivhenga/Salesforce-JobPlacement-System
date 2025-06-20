@@ -155,9 +155,10 @@
     <externalSharingModel>Private</externalSharingModel>
     <label>Application</label>
     <nameField>
+        <displayFormat>JOBPOST-{0000}</displayFormat>
         <label>Application Name</label>
         <trackHistory>false</trackHistory>
-        <type>Text</type>
+        <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Applications</pluralLabel>
     <searchLayouts/>
